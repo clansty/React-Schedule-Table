@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  height: 10vh;
+  background-color: #fcfcfc;
+  color: #303133;
+  display: flex;
+
+  .space {
+    width: 15vw;
+    display: inline-block;
+    height: 10vh;
+    border-right: #eee solid 1px;
+  }
+
+  .weekday {
+    width: 17vw;
+    height: 10vh;
+    display: inline-block;
+
+    &:not(:last-child) {
+      border-right: #eee solid 1px;
+    }
+
+    span {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+  }
+}
