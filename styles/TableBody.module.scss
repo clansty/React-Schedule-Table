@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  border-bottom: #eee solid 1px;
+
+  .colHeaders {
+    width: 15vw;
+    background-color: #fcfcfc;
+    color: #303133;
+
+    .cell {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 12vh;
+      border-right: #eee solid 1px;
+
+      &:not(:last-child) {
+        border-bottom: #eee solid 1px;
+      }
+
+      span {
+        font-size: small;
+      }
+    }
+  }
+}

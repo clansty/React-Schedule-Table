@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import TableHead from '../components/TableHead'
+import TableBody from '../components/TableBody'
 
 export default function Home() {
     return (
@@ -13,6 +13,7 @@ export default function Home() {
 
             <Header week={1}/>
             <TableHead/>
+            <TableBody/>
         </div>
     )
 }
