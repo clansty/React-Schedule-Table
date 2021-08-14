@@ -1,9 +1,9 @@
 .container {
   width: 100%;
   height: 10vh;
-  background-color: #fcfcfc;
-  color: #303133;
   display: flex;
+  box-sizing: content-box;
+  border-bottom: #eee solid 1px;
 
   .space {
     width: 15vw;
@@ -15,18 +15,14 @@
   .weekday {
     width: 17vw;
     height: 10vh;
-    display: inline-block;
+    background-color: #fcfcfc;
+    color: #303133;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 
     &:not(:last-child) {
       border-right: #eee solid 1px;
-    }
-
-    span {
-      height: 100%;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-      display: flex;
     }
   }
 }

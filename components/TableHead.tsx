@@ -1,22 +1,22 @@
 import styles from '../styles/TableHead.module.scss'
 
-export default function TableHead(){
+export default function TableHead() {
     return <div className={styles.container}>
         <div className={styles.space}/>
         <div className={styles.weekday}>
-            <span>周一</span>
+            周一
         </div>
         <div className={styles.weekday}>
-            <span>周二</span>
+            周二
         </div>
         <div className={styles.weekday}>
-            <span>周三</span>
+            周三
         </div>
         <div className={styles.weekday}>
-            <span>周四</span>
+            周四
         </div>
         <div className={styles.weekday}>
-            <span>周五</span>
+            周五
         </div>
     </div>
 }
