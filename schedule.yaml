@@ -1,0 +1,73 @@
+totalWeeks: 16
+lessons:
+  mon:
+    l2:
+      - name: 计算机系统2
+        teacher: 赵英男
+        weeks: all
+        place: 揽江楼C505
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ffccff'
+    l3:
+      - name: 概率统计
+        teacher: 陈文兵
+        weeks: odd
+        place: 揽江楼C201
+        classes: 软工合作20(2)班;软工合作20(1)班;信管嵌入20(1)班;
+        color: '#ccffcc'
+  tue:
+    l2:
+      - name: 电子技术基础
+        teacher: 郭萍
+        weeks: all
+        place: 揽江楼N507
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
+  wed:
+    l2:
+      - name: 计算机网络
+        teacher: 郭萍
+        weeks: all
+        place: 揽江楼N507
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#FFCCCC'
+    l4:
+      - name: 软件建模与分析
+        teacher: 王海彬
+        weeks: odd
+        place: 揽江楼C301
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#CCCCFF'
+  thu:
+    l1:
+      - name: 英语听说Ⅰ
+        teacher: 门恺琦
+        weeks: all
+        place: 揽江楼C305
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#FFCC99'
+    l2:
+      - name: 概率统计
+        teacher: 陈文兵
+        weeks: all
+        place: 揽江楼C201
+        classes: 软工合作20(2)班;软工合作20(1)班;信管嵌入20(1)班;
+        color: '#ccffcc'
+    l4:
+      - name: 体育（3）
+        color: '#ffffcc'
+  fri:
+    l1:
+      - name: 软件工程导论
+        teacher: Sunil Kumar Jha
+        weeks: all
+        place: 揽江楼C303
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#cc99ff'
+    l2:
+      - name: 软件建模与分析
+        teacher: 王海彬
+        weeks: all
+        place: 揽江楼C301
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#CCCCFF'
