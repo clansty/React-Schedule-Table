@@ -7,4 +7,8 @@
   border-bottom: #eee solid 1px;
   background-color: #edf8f6;
   color: #303133;
+  flex-wrap: wrap;
+  span{
+    margin: 0 10px;
+  }
 }

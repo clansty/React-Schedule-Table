@@ -19,7 +19,7 @@ function Home({config}: InferGetStaticPropsType<typeof getStaticProps>) {
                 <title>Create Next App</title>
             </Head>
 
-            <Header week={week}/>
+            <Header week={week} setWeek={setWeek} totalWeeks={config.totalWeeks}/>
             <TableHead/>
             <TableBody schedule={config.schedule} week={week}/>
         </div>
