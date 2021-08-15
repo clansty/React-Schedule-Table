@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Header from '../components/Header'
 import TableHead from '../components/TableHead'
 import TableBody from '../components/TableBody'
