@@ -3,14 +3,15 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import TableHead from '../components/TableHead'
 import TableBody from '../components/TableBody'
-import {InferGetServerSidePropsType} from 'next'
+import {InferGetStaticPropsType} from 'next'
 import fs from 'fs'
 import YAML from 'yaml'
 import Config from '../types/Config'
 import {useState} from 'react'
 import inferCurrentWeek from '../utils/inferCurrentWeek'
 
-function Home({config, currentWeek}: InferGetServerSidePropsType<typeof getServerSideProps>) {
+function Home({config}: InferGetStaticPropsType<typeof getStaticProps>) {
+    const currentWeek = inferCurrentWeek(config.firstWeekStart)
     const [week, setWeek] = useState(currentWeek)
     return (
         <div className={styles.container}>
@@ -25,9 +26,9 @@ function Home({config, currentWeek}: InferGetServerSidePropsType<typeof getServe
     )
 }
 
-export const getServerSideProps = () => {
+export const getStaticProps = () => {
     return new Promise<{
-        props: { config: Config, currentWeek: number }
+        props: { config: Config }
     }>(resolve =>
         fs.readFile('config.yaml', 'utf-8',
             (_, text) => {
@@ -35,7 +36,6 @@ export const getServerSideProps = () => {
                 resolve({
                     props: {
                         config,
-                        currentWeek: inferCurrentWeek(config.firstWeekStart),
                     },
                 })
             }))
