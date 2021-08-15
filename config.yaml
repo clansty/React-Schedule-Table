@@ -56,7 +56,7 @@ schedule:
         color: '#ccffcc'
     l4:
       - name: 体育（3）
-        week: all
+        weeks: all
         color: '#ffffcc'
   fri:
     l1:
