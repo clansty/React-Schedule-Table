@@ -20,9 +20,15 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 
     &:not(:last-child) {
       border-right: #eee solid 1px;
+    }
+
+    span {
+      font-size: small;
+      color: #909399;
     }
   }
 }

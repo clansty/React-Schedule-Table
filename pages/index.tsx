@@ -15,12 +15,8 @@ function Home({config}: InferGetStaticPropsType<typeof getStaticProps>) {
     const [week, setWeek] = useState(currentWeek)
     return (
         <div className={styles.container}>
-            <Head>
-                <title>Create Next App</title>
-            </Head>
-
             <Header week={week} setWeek={setWeek} totalWeeks={config.totalWeeks}/>
-            <TableHead/>
+            <TableHead week={week} firstWeekStart={config.firstWeekStart}/>
             <TableBody schedule={config.schedule} week={week}/>
         </div>
     )
