@@ -66,7 +66,7 @@ schedule:
         place: 揽江楼C303
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#cc99ff'
-    l2:
+    l3:
       - name: 软件建模与分析
         teacher: 王海彬
         weeks: all
