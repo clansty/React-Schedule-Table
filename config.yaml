@@ -1,8 +1,23 @@
-totalWeeks: 16
+totalWeeks: 17
 firstWeekStart: 2021/8/29
 schedule:
   mon:
+    l1:
+      - name: 软件建模与分析
+        teacher: 王海彬
+        include:
+          - 17
+        place: 揽江楼C301
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#CCCCFF'
     l2:
+      - name: 软件建模与分析
+        teacher: 王海彬
+        include:
+          - 17
+        place: 揽江楼C301
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#CCCCFF'
       - name: 计算机系统2
         teacher: 赵英男
         weeks: all
@@ -60,12 +75,27 @@ schedule:
         color: '#ffffcc'
   fri:
     l1:
+      - name: 软件建模与分析
+        teacher: 王海彬
+        include:
+          - 17
+        place: 揽江楼C301
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#CCCCFF'
       - name: 软件工程导论
         teacher: Sunil Kumar Jha
         weeks: all
         place: 揽江楼C303
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#cc99ff'
+    l2:
+      - name: 软件建模与分析
+        teacher: 王海彬
+        include:
+          - 17
+        place: 揽江楼C301
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#CCCCFF'
     l3:
       - name: 软件建模与分析
         teacher: 王海彬
