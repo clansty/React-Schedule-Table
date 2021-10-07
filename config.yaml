@@ -143,6 +143,7 @@ schedule:
         weeks: all
         exclude:
           - 17
+          - 6
         place: 揽江楼C303
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#cc99ff'
@@ -178,11 +179,10 @@ schedule:
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#CCCCFF'
     l4:
-      - name: 电子技术基础（实验）
+      - name: 电子技术基础（补课）
         teacher: 郭萍
         weeks: all
         include:
           - 6
-        place: 揽江楼N507
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#ccffff'
