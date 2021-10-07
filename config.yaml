@@ -3,7 +3,7 @@ firstWeekStart: 2021/8/29
 schedule:
   mon:
     l1:
-      - name: 软件建模与分析
+      - name: 软件建模与分析（实验）
         teacher: 王海彬
         include:
           - 17
@@ -11,7 +11,7 @@ schedule:
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#CCCCFF'
     l2:
-      - name: 软件建模与分析
+      - name: 软件建模与分析（实验）
         teacher: 王海彬
         include:
           - 17
@@ -21,6 +21,8 @@ schedule:
       - name: 计算机系统2
         teacher: 赵英男
         weeks: all
+        exclude:
+          - 17
         place: 揽江楼C505
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#ffccff'
@@ -28,22 +30,60 @@ schedule:
       - name: 概率统计
         teacher: 陈文兵
         weeks: odd
+        exclude:
+          - 17
         place: 揽江楼C201
         classes: 软工合作20(2)班;软工合作20(1)班;信管嵌入20(1)班;
         color: '#ccffcc'
+    l4:
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        include:
+          - 11
+          - 12
+          - 13
+          - 16
+        place: 揽江楼N507
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
   tue:
     l2:
       - name: 电子技术基础
         teacher: 郭萍
         weeks: all
+        exclude:
+          - 17
         place: 揽江楼N507
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#ccffff'
+    l4:
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        include:
+          - 14
+        place: 揽江楼N507
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
+      - name: 计算机网络（实验）
+        teacher: 郭萍
+        weeks: all
+        include:
+          - 10
+          - 11
+          - 12
+          - 13
+          - 15
+          - 16
+        place: 揽江楼N507
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#FFCCCC'
   wed:
     l2:
       - name: 计算机网络
         teacher: 郭萍
         weeks: all
+        exclude:
+          - 17
         place: 揽江楼N507
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#FFCCCC'
@@ -51,14 +91,26 @@ schedule:
       - name: 软件建模与分析
         teacher: 王海彬
         weeks: odd
+        exclude:
+          - 17
         place: 揽江楼C301
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#CCCCFF'
+    l5:
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        include:
+          - 15
+        place: 揽江楼N507
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
   thu:
     l1:
       - name: 英语听说Ⅰ
         teacher: 门恺琦
         weeks: all
+        exclude:
+          - 17
         place: 揽江楼C305
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#FFCC99'
@@ -66,16 +118,20 @@ schedule:
       - name: 概率统计
         teacher: 陈文兵
         weeks: all
+        exclude:
+          - 17
         place: 揽江楼C201
         classes: 软工合作20(2)班;软工合作20(1)班;信管嵌入20(1)班;
         color: '#ccffcc'
     l4:
       - name: 体育（3）
         weeks: all
+        exclude:
+          - 17
         color: '#ffffcc'
   fri:
     l1:
-      - name: 软件建模与分析
+      - name: 软件建模与分析（实验）
         teacher: 王海彬
         include:
           - 17
@@ -85,21 +141,48 @@ schedule:
       - name: 软件工程导论
         teacher: Sunil Kumar Jha
         weeks: all
+        exclude:
+          - 17
         place: 揽江楼C303
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#cc99ff'
     l2:
-      - name: 软件建模与分析
+      - name: 软件建模与分析（实验）
         teacher: 王海彬
         include:
           - 17
         place: 揽江楼C301
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#CCCCFF'
+      - name: 计算机系统2（实验）
+        teacher: 赵英男
+        include:
+          - 6
+          - 8
+          - 9
+          - 10
+          - 11
+          - 12
+          - 13
+          - 16
+        place: 揽江楼C505
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ffccff'
     l3:
       - name: 软件建模与分析
         teacher: 王海彬
         weeks: all
+        exclude:
+          - 17
         place: 揽江楼C301
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#CCCCFF'
+    l4:
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        weeks: all
+        include:
+          - 6
+        place: 揽江楼N507
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
