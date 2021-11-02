@@ -36,16 +36,28 @@ schedule:
         classes: 软工合作20(2)班;软工合作20(1)班;信管嵌入20(1)班;
         color: '#ccffcc'
     l4:
-      - name: 电子技术基础（实验）
+      - name: 计算机网络（实验）
         teacher: 郭萍
         include:
           - 11
-          - 12
           - 13
-          - 16
-        place: 揽江楼N507
         classes: 软工合作20(2)班;软工合作20(1)班;
-        color: '#ccffff'
+        color: '#FFCCCC'
+        place: 计算机楼204
+      - name: 计算机网络（实验）
+        teacher: 郭萍
+        include:
+          - 12
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#FFCCCC'
+        place: 计算机楼205
+      - name: 计算机网络（实验）
+        teacher: 郭萍
+        include:
+          - 16
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#FFCCCC'
+        place: 计算机楼505
   tue:
     l2:
       - name: 电子技术基础
@@ -56,24 +68,34 @@ schedule:
         place: 揽江楼N507
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#ccffff'
-    l4:
+    l3:
       - name: 电子技术基础（实验）
         teacher: 郭萍
         include:
           - 14
-        place: 揽江楼N507
+        place: 电子技术第二实验室S105
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        include:
+          - 16
+        place: 计算机楼402
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
+    l4:
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        include:
+          - 16
+        place: 计算机楼505
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#ccffff'
       - name: 计算机网络（实验）
         teacher: 郭萍
         include:
-          - 10
-          - 11
-          - 12
-          - 13
-          - 15
-          - 16
-        place: 揽江楼N507
+          - 14
+        place: 计算机楼204
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#FFCCCC'
       - name: 软件工程导论
@@ -105,13 +127,13 @@ schedule:
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#CCCCFF'
     l5:
-      - name: 电子技术基础（实验）
+      - name: 计算机网络（实验）
         teacher: 郭萍
         include:
           - 15
-        place: 揽江楼N507
+        place: 计算机楼204
         classes: 软工合作20(2)班;软工合作20(1)班;
-        color: '#ccffff'
+        color: '#FFCCCC'
   thu:
     l1:
       - name: 英语听说Ⅰ
@@ -131,6 +153,15 @@ schedule:
         place: 揽江楼C201
         classes: 软工合作20(2)班;软工合作20(1)班;信管嵌入20(1)班;
         color: '#ccffcc'
+    l3:
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        include:
+          - 12
+          - 17
+        place: 电子技术第二实验室S105
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
     l4:
       - name: 体育（3）
         weeks: all
@@ -169,6 +200,13 @@ schedule:
         classes: 软工合作20(2)班;软工合作20(1)班;
         color: '#ffccff'
     l3:
+      - name: 电子技术基础（实验）
+        teacher: 郭萍
+        include:
+          - 17
+        place: 计算机楼508
+        classes: 软工合作20(2)班;软工合作20(1)班;
+        color: '#ccffff'
       - name: 软件建模与分析
         teacher: 王海彬
         weeks: all
