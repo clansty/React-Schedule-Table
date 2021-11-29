@@ -23,6 +23,10 @@ export default function TableBody({schedule, week}: {
                 <span>下午</span>
                 7～8
             </div>
+            <div className={styles.cell}>
+                <span>晚上</span>
+                9～10
+            </div>
         </div>
         <WeekDay day={schedule.mon} week={week}/>
         <WeekDay day={schedule.tue} week={week}/>

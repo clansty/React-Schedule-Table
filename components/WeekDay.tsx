@@ -8,6 +8,7 @@ export default function WeekDay({day, week}: { day: WeekDayType, week: number })
         <Lesson lessons={day.l2} week={week}/>
         <Lesson lessons={day.l3} week={week}/>
         <Lesson lessons={day.l4} week={week}/>
+        <Lesson lessons={day.l5} week={week}/>
     </div>
 }
 
